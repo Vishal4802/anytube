@@ -7,8 +7,8 @@ import Providers from "@/store/provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "AppTube",
-  description: "AppTube a platform to upload and watch amazing videos.",
+  title: "AnyTube",
+  description: "AnyTube a platform to upload and watch amazing videos.",
 };
 
 export default function RootLayout({
