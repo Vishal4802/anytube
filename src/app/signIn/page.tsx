@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import Link from 'next/link'
 import { useSelector, useDispatch } from "react-redux";
 import { login } from "@/store/slices/logInSlice";
 import { AppDispatch, RootState } from "@/store/store";
@@ -73,6 +74,9 @@ const SignInForm = () => {
         >
           Sign In
         </button>
+        <div className="flex justify-center items-center pt-2">
+          <h2><Link href="/signUp">Sign Up</Link></h2>
+        </div>
         <div className="flex flex-col items-center pt-6">
           <h2>
             <b>Test Email:</b> test@test.com
