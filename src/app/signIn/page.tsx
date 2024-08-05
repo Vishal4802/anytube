@@ -74,9 +74,6 @@ const SignInForm = () => {
         >
           Sign In
         </button>
-        <div className="flex justify-center items-center pt-2">
-          <h2><Link href="/signUp">Sign Up</Link></h2>
-        </div>
         <div className="flex flex-col items-center pt-6">
           <h2>
             <b>Test Email:</b> test@test.com
@@ -84,6 +81,9 @@ const SignInForm = () => {
           <h2>
             <b>Test Password:</b> test123
           </h2>
+        </div>
+        <div className="flex justify-center items-center pt-6">
+          <h2><Link href="/signUp" className="font-bold">Sign Up</Link></h2>
         </div>
       </form>
     </div>
